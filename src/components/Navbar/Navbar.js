@@ -4,7 +4,7 @@ import "./Navbar.css";
 const Navbar = props => (
     <div>
         <ul className="nav nav-bar nav-justified">
-            <li><a href="/"><i class="fa fa-refresh" aria-hidden="true"></i> Reset </a></li>
+            <li><button type="button" onClick={ refreshPage }> <span><i class="fa fa-refresh" aria-hidden="true"></i> Reset</span> </button></li>
             <li
                 className={props.message.indexOf('incorrectly') !== -1 ? 
                     "desc-incorrect" : 
@@ -17,5 +17,9 @@ const Navbar = props => (
         </ul>
     </div>
 );
+
+function refreshPage(){ 
+    window.location.reload(); 
+}
 
 export default Navbar;

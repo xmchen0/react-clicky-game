@@ -2,13 +2,14 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
-    text-align: center;
-    background-color: #efeff0;
     color: #24292e;
 }
 
 .footer-text {
     font-family: monospace;
     letter-spacing: 3px;
-    text-align: right;
+    text-align: center;
+    left: 0;
+    bottom: 0;
+    padding: 20px;
 }

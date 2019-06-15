@@ -3,54 +3,40 @@
     top: 0;
     left: 0;
     background: #24292e;
-    min-height: 100px;
     width: 100%;
-    text-align: center;
     -webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, .25), 0 10px 10px rgba(0, 0, 0, .22);
     box-shadow: 0 14px 28px rgba(0, 0, 0, .25), 0 10px 10px rgba(0, 0, 0, .22);
     color: #fff;
-    font-size: 2vw;
+    font-size: 3rem;
     font-weight: bold;
     z-index: 99;
     white-space: nowrap;
-    padding: 35px;
-    text-align: right;
+    padding: 6px;
     font-family: 'Concert One', cursive;
+    display: inline;
 }
 
-.nav-bar a {
-    margin-top: 15px;
-    color: #fff;
-    width: 150px;
-    text-align: left;
+.nav-bar li {
+    text-align: center;
+    padding: 5px;
+}
+
+.nav-bar button {
+    font-size: 2rem;
+    background-color: transparent;
+    width: 100px;
+    height: 35px;
     border: 2px solid #fdd53e;
-    font-size: 16px;
     cursor: pointer;
+    text-align: center;
 }
 
-.nav-bar a:hover {
-    color: #fff;
+.nav-bar button:hover {
     background-color: #fdd53e !important;
 }
 
 .desc-normal {
     color: #fff;
-    font-size: 2vw;
-    line-height: 2vw;
+    font-size: 3rem;
     text-shadow: 0 0 3vw #fdd53e;
-}
-
-.desc-correct {
-    background: #fff;
-    font-size: 2vw;
-    line-height: 2vw;
-    text-shadow: 0 0 3vw #33ffd5;
-}
-
-.desc-incorrect {
-    background: #fff;
-    font-size: 2vw;
-    line-height: 2vw;
-    text-shadow: 0 0 3vw #ff5c63;
-
 }

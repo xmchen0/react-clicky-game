@@ -14,10 +14,62 @@
 * HTML5
 * CSS3
 
+## Directory
+    my-app/
+      build/
+        static/
+          css/
+          js/
+          media/
+      README.md
+      node_modules/
+      package-lock.json
+      package.json
+      .gitignore
+      public/
+        index.html
+        favicon.ico
+        manifest.json
+      src/
+        components/
+          Footer/
+            Footer.css
+            Footer.js
+            index.js
+          Navbar/
+            Navbar.css
+            Navbar.js
+            index.js
+          PunCard/
+            index.js
+            PunCard.css
+            PunCard.js
+          Title/
+            index.js
+            Title.css
+            Title.js
+          Wrapper/
+            index.js
+            Wrapper.css
+            Wrapper.js
+        App.css
+        App.js
+        App.test.js
+        index.css
+        index.js
+        logo.svg
+        puns.json
+        serviceWorker.js
+
+## Demo
+<a href="http://recordit.co/nvLdJwKUez"><img src="https://i.imgur.com/FtMMVkX.gif" border="0"></a>
+
 ## Deployment
 https://xmkchen.github.io/react-clicky-game/
 
+
 <hr>
+
 
 ## README generated with Create React App
 
@@ -89,3 +141,7 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+<hr>
+
+Kathy Chen | UofT Coding Bootcamp 2019

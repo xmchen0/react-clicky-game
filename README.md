@@ -1,3 +1,78 @@
+# react-clicky-game
+
+## Description
+* This application is created using Create React App. 
+* The application renders different images to the screen. Each image listens for click events. 
+* The application keeps track of the user's score. 
+* The user's score is incremented when clicking an image for the first time. The user's score resets to 0 if they click the same image more than once.
+* Every time an image is clicked, the images rendered to the page shuffle themselves in a random order.
+* Once the user clicks reset, the game should restart to erase current and top scores.
+
+## Development
+* React
+* JavaScript ES6
+* HTML5
+* CSS3
+
+## Directory
+    my-app/
+      build/
+        static/
+          css/
+          js/
+          media/
+      README.md
+      node_modules/
+      package-lock.json
+      package.json
+      .gitignore
+      public/
+        index.html
+        favicon.ico
+        manifest.json
+      src/
+        components/
+          Footer/
+            Footer.css
+            Footer.js
+            index.js
+          Navbar/
+            Navbar.css
+            Navbar.js
+            index.js
+          PunCard/
+            index.js
+            PunCard.css
+            PunCard.js
+          Title/
+            index.js
+            Title.css
+            Title.js
+          Wrapper/
+            index.js
+            Wrapper.css
+            Wrapper.js
+        App.css
+        App.js
+        App.test.js
+        index.css
+        index.js
+        logo.svg
+        puns.json
+        serviceWorker.js
+
+## Demo
+<a href="http://recordit.co/nvLdJwKUez"><img src="https://i.imgur.com/FtMMVkX.gif" border="0"></a>
+
+## Deployment
+https://xmkchen.github.io/react-clicky-game/
+
+
+<hr>
+
+
+## README generated with Create React App
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -66,3 +141,7 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+<hr>
+
+Kathy Chen | UofT Coding Bootcamp 2019

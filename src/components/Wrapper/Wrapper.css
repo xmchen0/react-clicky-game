@@ -7,6 +7,6 @@
     align-content: flex-start;
     overflow: auto;
     background: #4fbfa8;
-    margin-top: 16px;
-    position: relative;
+    margin-top: 20px;
+    position: fixed;
 }
